@@ -51,7 +51,7 @@ namespace Com.API.Hotels
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                     context.Response.Redirect("/swagger");
                 });
             });
         }

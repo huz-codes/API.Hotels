@@ -23,9 +23,6 @@ namespace Com.API.Hotels.Registrations
                     Description = "Hotels"
 
                 });
-                //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                //c.IncludeXmlComments(xmlPath);
             });
 
             return services;
